@@ -1,5 +1,5 @@
 chatterbot==1.0.8
-flask==1.1.2
+flask>=1.1.1
 gunicorn==19.9.0
 jinja2==2.10.1
 itsdangerous==1.1.0
