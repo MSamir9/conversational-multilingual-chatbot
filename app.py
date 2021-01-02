@@ -30,8 +30,8 @@ training_data = arabic_data_sample+english_data_sample+french_data_sample
 trainer = ListTrainer(chatbot)
 trainer.train(training_data)
 
-app = Flask(__name__, template_folder= 'template')
-app.static_folder = 'static'
+app = Flask(__name__, template_folder= 'templates')
+#app.static_folder = 'static'
 
 @app.route("/")
 def home():
