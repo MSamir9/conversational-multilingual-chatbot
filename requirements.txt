@@ -5,3 +5,4 @@ itsdangerous==1.1.0
 flask==1.1.2
 spacy==2.2.4
 PyYAML>=3.11,<4.0
+nltk==3.5
