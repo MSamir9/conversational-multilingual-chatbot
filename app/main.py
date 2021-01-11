@@ -1,7 +1,9 @@
 from flask import Flask, render_template, request
 #from chatbot import chatbot
 from chatterbot import ChatBot
-import spacy
+#import spacy
+import nltk
+nltk.download()
 #import en_core_web_md
 #nlp = en_core_web_md.load()
 from chatterbot.trainers import ListTrainer
