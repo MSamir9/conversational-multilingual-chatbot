@@ -2,6 +2,4 @@ flask==1.1.2
 itsdangerous==1.1.0
 gunicorn==20.0.4
 jinja2==2.10.1
-chatterbot==1.0.7
-spacy
-en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz
+chatterbot==1.0.5
